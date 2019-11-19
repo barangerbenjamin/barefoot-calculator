@@ -1,0 +1,11 @@
+@import "bootstrap/scss/bootstrap";
+
+.row {
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.col-xs-12 {
+    margin: 0 auto;
+}

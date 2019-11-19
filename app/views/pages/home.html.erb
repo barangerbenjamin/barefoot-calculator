@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <form data-controller="calculus" data-action="submit->calculus#compute">
+                <input type="text" name="income" data-target="calculus.income">
+                <input type="submit" value="Calculate">
+            </form>
+            <div class="d-none" id="summary">
+                <h2>Daily Expenses</h2>
+                <p id="daily"></p>
+                <h2>Splurge</h2>
+                <p id="splurge"></p>
+                <h2>Smile</h2>
+                <p id="smile"></p>
+                <h2>Fire Extinguisher</h2>
+                <p id="fire"></p>
+            </div>
+        </div>
+    </div>
+</div>
